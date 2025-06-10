@@ -1,0 +1,4 @@
+- Run BloodHound legacy for better compatibility with the exam environment.
+- Run BloodHound on your host machine, not the student VM, since it will slow down the VM.
+- Have your tools ready in a zip file before the exam so that they are easily transferrable to the student VM.
+- Make sure that the tools do not get detected by Windows Defender, since the AVs deployed in the exam environment are completely up to date; obfuscate the tools/payload if necessary.

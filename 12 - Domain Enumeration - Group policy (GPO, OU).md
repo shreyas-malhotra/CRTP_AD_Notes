@@ -25,6 +25,7 @@
 	- `Get-DomainGPOComputerLocalGroupMapping -ComputerIdentity dcorp-student1`
 - Get machines where the given user is a member of a specific group
 	- `Get-DomainGPOUserLocalGroupMapping -Identity student1 -Verbose`
+
 ### Organizational Units (OUs)
 - Organizations use organizational units (OUs) for delegating administration.
 - An OU is the lowest-level AD container to which a GPO can be applied.
